@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body,html,#root,.app{
+    width: 100%;
+    height: 100%;
+}
+.login-box{
+    .user-admin{
+        padding: 20px 40px;
+        margin: 20px;
+        background: skyblue;
+        box-sizing: border-box;
+        input{
+            width: 100%;
+            line-height: 40px;
+            font-size: 18px;
+
+        }
+
+    }
+}
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background: lightskyblue;
+    line-height: 50px;
+    .title-box{
+        font-size: 24px;
+        font-weight: bold;
+        font-family: "宋体";
+    }
+}
+.banner-box{
+    img{
+        width: 100%;
+    }
+}
+.bannerText-box{
+    .content-box{
+        width: 100%;
+        height: 50px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+       
+    }
+    .text{
+        background: skyblue;
+        width: 100%;
+        height: 30px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        line-height: 30px;
+        text-shadow: 1px 2px 1px yellowgreen;
+    }
+}
+.home-page,.category,.my-box,.list-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .main{
+        flex: 1;
+    }
+}
+
+.tabBar{
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    background: lightskyblue;
+}
+.list-box{
+    .wrapper{
+        overflow: hidden;
+        width: 100%;
+        height: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+        .content{
+            .scroll-item-box{
+                width: 100%;
+                height: 150px;
+                display: flex;
+                .imgs{
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
